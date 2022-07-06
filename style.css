@@ -41,3 +41,14 @@ section{
     letter-spacing: 2px;
     
 }
+.donate-today{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.donate-today h2{
+    font-size: 40px;  
+    
+}
