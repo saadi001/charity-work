@@ -19,6 +19,7 @@ section{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 60%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -46,6 +47,7 @@ section{
     text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+    margin-bottom: 50px;
 
 }
 .donate-today h2{
@@ -56,4 +58,38 @@ section{
 }
 .money-amount{
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
 }
+.money{
+    padding: 5px 20px;
+    margin-left: 25px;
+    color: rgb(88, 77, 77);
+    font-size: 30px;
+    font-weight: 600;
+}
+.selected-money{
+    border: 2px solid rgb(235, 89, 89);
+    border-radius: 5px;
+    color: rgb(235, 89, 89);
+}
+.input-take{
+    width: 100%;
+    text-align: center;
+}
+.input-take input{
+    margin: 5% 0 3% 0;
+    border: none;
+    border-bottom: 1px solid rgba(148, 141, 141, 0.644);
+    width: 50%;
+    height: 30px;
+}
+input[type='text']::placeholder
+    {   
+        text-align: center;
+        font-size: 18px;
+        color:rgba(148, 141, 141, 0.644) ;
+        
+    }
