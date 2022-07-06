@@ -49,6 +49,11 @@ section{
 
 }
 .donate-today h2{
-    font-size: 40px;  
-    
+    font-size: 40px;    
+}
+.donate-today p{
+    color: gray;
+}
+.money-amount{
+    display: flex;
 }
