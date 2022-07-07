@@ -118,8 +118,9 @@ section{
 .calculation{
     width: 100%;
     height: 200px;
-    background-color: rgba(235, 89, 89, 0.521);
+    background-color: rgba(194, 96, 104, 0.26);
     display: flex;  
+    
 }
 
 .donation-recieved{
