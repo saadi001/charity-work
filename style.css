@@ -87,7 +87,7 @@ section{
     width: 50%;
     height: 30px;
 }
-input[type='text']::placeholder
+#other-amount[type='text']::placeholder
     {   
         text-align: center;
         font-size: 18px;
@@ -114,4 +114,31 @@ input[type='text']::placeholder
     height: 250px;
     margin: 10px;
     padding: 5% 3%;
+}
+.email{
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: darksalmon;
+    text-align: center;
+    
+    
+}
+.email input{
+  margin-top: 90px;
+  padding: 15px;
+  border: none;
+}
+#input-email{
+    width: 250px;
+}
+#input-email ::placeholder{
+    text-align: left;
+}
+input[type="submit"]{
+    margin-left: -5px;
+    width: 130px;
+    background-color: brown;
+    color: white;
 }
