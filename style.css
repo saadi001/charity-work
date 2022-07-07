@@ -70,10 +70,12 @@ section{
     color: rgb(88, 77, 77);
     font-size: 30px;
     font-weight: 600;
+    background-color: rgba(177, 167, 167, 0.13);
+    border-radius: 5px;
 }
 .selected-money{
     border: 2px solid rgb(235, 89, 89);
-    border-radius: 5px;
+    background-color: rgba(182, 169, 169, 0.288);
     color: rgb(235, 89, 89);
 }
 .input-take{
@@ -101,13 +103,13 @@ section{
     margin-right: 10%;
 }
 #food{
-    background-color: rgba(135, 207, 235, 0.247);
+    background-color: rgba(135, 207, 235, 0.212);
 }
 #shelter{
-    background-color: rgba(255, 192, 203, 0.363);
+    background-color: rgba(255, 192, 203, 0.281);
 }
 #education{
-    background-color:rgba(240, 128, 128, 0.247);
+    background-color:rgba(240, 128, 128, 0.178);
 }
 .foods{
     width: 100%;
@@ -115,6 +117,29 @@ section{
     margin: 10px;
     padding: 5% 3%;
 }
+.monitoring{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.monitoring-para{
+    margin-right: 50px;
+    width: 100%;
+    margin-right: 150px;
+    padding-right: 5%;
+}
+.monitoring-para h1{
+    font-size: 40px;
+    margin-top: 0px;
+}
+.monitoring img{
+    width: 100%;
+    height: 120%;
+    margin-left: -20%;
+    border-radius: 5px;
+}
+
 .calculation{
     width: 100%;
     height: 200px;
@@ -131,7 +156,7 @@ section{
 }
 .donation-recieved img{
     height: 100%;
-    .
+    
 }
 .donation-para{
     color: black;
@@ -139,7 +164,7 @@ section{
     
 }
 .donation-para h1{
-    margin-top: -5px;
+    margin-top: 2px;
     margin-bottom: -5px;
 }
 
